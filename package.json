@@ -1,0 +1,36 @@
+{
+  "name": "moviar",
+  "version": "1.0.0",
+  "description": "Aplicación de visualización de estado del transporte público en la provincia de Buenos Aires.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Argiiasd/MoviAR.git"
+  },
+  "keywords": [
+    "Transporte",
+    "Público",
+    "Buenos",
+    "Aires",
+    "App",
+    "Argentina"
+  ],
+  "author": "Mateo Jeremias Pinto Giacosa",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Argiiasd/MoviAR/issues"
+  },
+  "homepage": "https://github.com/Argiiasd/MoviAR#readme",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.7"
+  }
+}
